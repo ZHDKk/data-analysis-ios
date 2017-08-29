@@ -1,0 +1,530 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		F09BEEE21F552F1C00383138 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = F09BEEE11F552F1C00383138 /* main.m */; };
+		F09BEEE51F552F1C00383138 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = F09BEEE41F552F1C00383138 /* AppDelegate.m */; };
+		F09BEEE81F552F1C00383138 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F09BEEE71F552F1C00383138 /* ViewController.m */; };
+		F09BEEEB1F552F1C00383138 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F09BEEE91F552F1C00383138 /* Main.storyboard */; };
+		F09BEEED1F552F1C00383138 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F09BEEEC1F552F1C00383138 /* Assets.xcassets */; };
+		F09BEEF01F552F1C00383138 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F09BEEEE1F552F1C00383138 /* LaunchScreen.storyboard */; };
+		F09BEEFB1F552F1C00383138 /* JSON____Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = F09BEEFA1F552F1C00383138 /* JSON____Tests.m */; };
+		F09BEF061F552F1C00383138 /* JSON____UITests.m in Sources */ = {isa = PBXBuildFile; fileRef = F09BEF051F552F1C00383138 /* JSON____UITests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		F09BEEF71F552F1C00383138 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F09BEED51F552F1B00383138 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F09BEEDC1F552F1C00383138;
+			remoteInfo = "JSON数据解析";
+		};
+		F09BEF021F552F1C00383138 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F09BEED51F552F1B00383138 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F09BEEDC1F552F1C00383138;
+			remoteInfo = "JSON数据解析";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		F09BEEDD1F552F1C00383138 /* JSON数据解析.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "JSON数据解析.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		F09BEEE11F552F1C00383138 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		F09BEEE31F552F1C00383138 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		F09BEEE41F552F1C00383138 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		F09BEEE61F552F1C00383138 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		F09BEEE71F552F1C00383138 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		F09BEEEA1F552F1C00383138 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		F09BEEEC1F552F1C00383138 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		F09BEEEF1F552F1C00383138 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		F09BEEF11F552F1C00383138 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F09BEEF61F552F1C00383138 /* JSON数据解析Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "JSON数据解析Tests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		F09BEEFA1F552F1C00383138 /* JSON____Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "JSON____Tests.m"; sourceTree = "<group>"; };
+		F09BEEFC1F552F1C00383138 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F09BEF011F552F1C00383138 /* JSON数据解析UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "JSON数据解析UITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		F09BEF051F552F1C00383138 /* JSON____UITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "JSON____UITests.m"; sourceTree = "<group>"; };
+		F09BEF071F552F1C00383138 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F09BEEDA1F552F1C00383138 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F09BEEF31F552F1C00383138 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F09BEEFE1F552F1C00383138 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		F09BEED41F552F1B00383138 = {
+			isa = PBXGroup;
+			children = (
+				F09BEEDF1F552F1C00383138 /* JSON数据解析 */,
+				F09BEEF91F552F1C00383138 /* JSON数据解析Tests */,
+				F09BEF041F552F1C00383138 /* JSON数据解析UITests */,
+				F09BEEDE1F552F1C00383138 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		F09BEEDE1F552F1C00383138 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F09BEEDD1F552F1C00383138 /* JSON数据解析.app */,
+				F09BEEF61F552F1C00383138 /* JSON数据解析Tests.xctest */,
+				F09BEF011F552F1C00383138 /* JSON数据解析UITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F09BEEDF1F552F1C00383138 /* JSON数据解析 */ = {
+			isa = PBXGroup;
+			children = (
+				F09BEEE31F552F1C00383138 /* AppDelegate.h */,
+				F09BEEE41F552F1C00383138 /* AppDelegate.m */,
+				F09BEEE61F552F1C00383138 /* ViewController.h */,
+				F09BEEE71F552F1C00383138 /* ViewController.m */,
+				F09BEEE91F552F1C00383138 /* Main.storyboard */,
+				F09BEEEC1F552F1C00383138 /* Assets.xcassets */,
+				F09BEEEE1F552F1C00383138 /* LaunchScreen.storyboard */,
+				F09BEEF11F552F1C00383138 /* Info.plist */,
+				F09BEEE01F552F1C00383138 /* Supporting Files */,
+			);
+			path = "JSON数据解析";
+			sourceTree = "<group>";
+		};
+		F09BEEE01F552F1C00383138 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				F09BEEE11F552F1C00383138 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		F09BEEF91F552F1C00383138 /* JSON数据解析Tests */ = {
+			isa = PBXGroup;
+			children = (
+				F09BEEFA1F552F1C00383138 /* JSON____Tests.m */,
+				F09BEEFC1F552F1C00383138 /* Info.plist */,
+			);
+			path = "JSON数据解析Tests";
+			sourceTree = "<group>";
+		};
+		F09BEF041F552F1C00383138 /* JSON数据解析UITests */ = {
+			isa = PBXGroup;
+			children = (
+				F09BEF051F552F1C00383138 /* JSON____UITests.m */,
+				F09BEF071F552F1C00383138 /* Info.plist */,
+			);
+			path = "JSON数据解析UITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F09BEEDC1F552F1C00383138 /* JSON数据解析 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F09BEF0A1F552F1C00383138 /* Build configuration list for PBXNativeTarget "JSON数据解析" */;
+			buildPhases = (
+				F09BEED91F552F1C00383138 /* Sources */,
+				F09BEEDA1F552F1C00383138 /* Frameworks */,
+				F09BEEDB1F552F1C00383138 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "JSON数据解析";
+			productName = "JSON数据解析";
+			productReference = F09BEEDD1F552F1C00383138 /* JSON数据解析.app */;
+			productType = "com.apple.product-type.application";
+		};
+		F09BEEF51F552F1C00383138 /* JSON数据解析Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F09BEF0D1F552F1C00383138 /* Build configuration list for PBXNativeTarget "JSON数据解析Tests" */;
+			buildPhases = (
+				F09BEEF21F552F1C00383138 /* Sources */,
+				F09BEEF31F552F1C00383138 /* Frameworks */,
+				F09BEEF41F552F1C00383138 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F09BEEF81F552F1C00383138 /* PBXTargetDependency */,
+			);
+			name = "JSON数据解析Tests";
+			productName = "JSON数据解析Tests";
+			productReference = F09BEEF61F552F1C00383138 /* JSON数据解析Tests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		F09BEF001F552F1C00383138 /* JSON数据解析UITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F09BEF101F552F1C00383138 /* Build configuration list for PBXNativeTarget "JSON数据解析UITests" */;
+			buildPhases = (
+				F09BEEFD1F552F1C00383138 /* Sources */,
+				F09BEEFE1F552F1C00383138 /* Frameworks */,
+				F09BEEFF1F552F1C00383138 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F09BEF031F552F1C00383138 /* PBXTargetDependency */,
+			);
+			name = "JSON数据解析UITests";
+			productName = "JSON数据解析UITests";
+			productReference = F09BEF011F552F1C00383138 /* JSON数据解析UITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F09BEED51F552F1B00383138 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = "zh dk";
+				TargetAttributes = {
+					F09BEEDC1F552F1C00383138 = {
+						CreatedOnToolsVersion = 8.3.3;
+						ProvisioningStyle = Automatic;
+					};
+					F09BEEF51F552F1C00383138 = {
+						CreatedOnToolsVersion = 8.3.3;
+						ProvisioningStyle = Automatic;
+						TestTargetID = F09BEEDC1F552F1C00383138;
+					};
+					F09BEF001F552F1C00383138 = {
+						CreatedOnToolsVersion = 8.3.3;
+						ProvisioningStyle = Automatic;
+						TestTargetID = F09BEEDC1F552F1C00383138;
+					};
+				};
+			};
+			buildConfigurationList = F09BEED81F552F1B00383138 /* Build configuration list for PBXProject "JSON数据解析" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = F09BEED41F552F1B00383138;
+			productRefGroup = F09BEEDE1F552F1C00383138 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F09BEEDC1F552F1C00383138 /* JSON数据解析 */,
+				F09BEEF51F552F1C00383138 /* JSON数据解析Tests */,
+				F09BEF001F552F1C00383138 /* JSON数据解析UITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F09BEEDB1F552F1C00383138 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F09BEEF01F552F1C00383138 /* LaunchScreen.storyboard in Resources */,
+				F09BEEED1F552F1C00383138 /* Assets.xcassets in Resources */,
+				F09BEEEB1F552F1C00383138 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F09BEEF41F552F1C00383138 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F09BEEFF1F552F1C00383138 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F09BEED91F552F1C00383138 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F09BEEE81F552F1C00383138 /* ViewController.m in Sources */,
+				F09BEEE51F552F1C00383138 /* AppDelegate.m in Sources */,
+				F09BEEE21F552F1C00383138 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F09BEEF21F552F1C00383138 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F09BEEFB1F552F1C00383138 /* JSON____Tests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F09BEEFD1F552F1C00383138 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F09BEF061F552F1C00383138 /* JSON____UITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		F09BEEF81F552F1C00383138 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F09BEEDC1F552F1C00383138 /* JSON数据解析 */;
+			targetProxy = F09BEEF71F552F1C00383138 /* PBXContainerItemProxy */;
+		};
+		F09BEF031F552F1C00383138 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F09BEEDC1F552F1C00383138 /* JSON数据解析 */;
+			targetProxy = F09BEF021F552F1C00383138 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		F09BEEE91F552F1C00383138 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F09BEEEA1F552F1C00383138 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		F09BEEEE1F552F1C00383138 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F09BEEEF1F552F1C00383138 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		F09BEF081F552F1C00383138 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		F09BEF091F552F1C00383138 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		F09BEF0B1F552F1C00383138 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "JSON数据解析/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "zhdk.JSON----";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		F09BEF0C1F552F1C00383138 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "JSON数据解析/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "zhdk.JSON----";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		F09BEF0E1F552F1C00383138 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "JSON数据解析Tests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "zhdk.JSON----Tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/JSON数据解析.app/JSON数据解析";
+			};
+			name = Debug;
+		};
+		F09BEF0F1F552F1C00383138 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "JSON数据解析Tests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "zhdk.JSON----Tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/JSON数据解析.app/JSON数据解析";
+			};
+			name = Release;
+		};
+		F09BEF111F552F1C00383138 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "JSON数据解析UITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "zhdk.JSON----UITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "JSON数据解析";
+			};
+			name = Debug;
+		};
+		F09BEF121F552F1C00383138 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "JSON数据解析UITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "zhdk.JSON----UITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "JSON数据解析";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F09BEED81F552F1B00383138 /* Build configuration list for PBXProject "JSON数据解析" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F09BEF081F552F1C00383138 /* Debug */,
+				F09BEF091F552F1C00383138 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F09BEF0A1F552F1C00383138 /* Build configuration list for PBXNativeTarget "JSON数据解析" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F09BEF0B1F552F1C00383138 /* Debug */,
+				F09BEF0C1F552F1C00383138 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		F09BEF0D1F552F1C00383138 /* Build configuration list for PBXNativeTarget "JSON数据解析Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F09BEF0E1F552F1C00383138 /* Debug */,
+				F09BEF0F1F552F1C00383138 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		F09BEF101F552F1C00383138 /* Build configuration list for PBXNativeTarget "JSON数据解析UITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F09BEF111F552F1C00383138 /* Debug */,
+				F09BEF121F552F1C00383138 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = F09BEED51F552F1B00383138 /* Project object */;
+}
