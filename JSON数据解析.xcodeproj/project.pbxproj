@@ -15,6 +15,7 @@
 		F09BEEF01F552F1C00383138 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F09BEEEE1F552F1C00383138 /* LaunchScreen.storyboard */; };
 		F09BEEFB1F552F1C00383138 /* JSON____Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = F09BEEFA1F552F1C00383138 /* JSON____Tests.m */; };
 		F09BEF061F552F1C00383138 /* JSON____UITests.m in Sources */ = {isa = PBXBuildFile; fileRef = F09BEF051F552F1C00383138 /* JSON____UITests.m */; };
+		F09BEF151F552FA500383138 /* BookModel.m in Sources */ = {isa = PBXBuildFile; fileRef = F09BEF141F552FA500383138 /* BookModel.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +52,8 @@
 		F09BEF011F552F1C00383138 /* JSON数据解析UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "JSON数据解析UITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		F09BEF051F552F1C00383138 /* JSON____UITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "JSON____UITests.m"; sourceTree = "<group>"; };
 		F09BEF071F552F1C00383138 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F09BEF131F552FA500383138 /* BookModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BookModel.h; sourceTree = "<group>"; };
+		F09BEF141F552FA500383138 /* BookModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BookModel.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -103,6 +106,8 @@
 			children = (
 				F09BEEE31F552F1C00383138 /* AppDelegate.h */,
 				F09BEEE41F552F1C00383138 /* AppDelegate.m */,
+				F09BEF131F552FA500383138 /* BookModel.h */,
+				F09BEF141F552FA500383138 /* BookModel.m */,
 				F09BEEE61F552F1C00383138 /* ViewController.h */,
 				F09BEEE71F552F1C00383138 /* ViewController.m */,
 				F09BEEE91F552F1C00383138 /* Main.storyboard */,
@@ -275,6 +280,7 @@
 			files = (
 				F09BEEE81F552F1C00383138 /* ViewController.m in Sources */,
 				F09BEEE51F552F1C00383138 /* AppDelegate.m in Sources */,
+				F09BEF151F552FA500383138 /* BookModel.m in Sources */,
 				F09BEEE21F552F1C00383138 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
